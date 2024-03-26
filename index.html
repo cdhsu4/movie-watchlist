@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
 <body>
@@ -16,9 +17,9 @@
         <p>My Watchlist</p>
     </header>
 
-    <form class="search-bar">
-        <input type="text" placeholder="Search for a movie" />
-        <button type="submit">Search</button>
+    <form class="search-bar" id="search-bar">
+        <input id="search-bar-input" name="movie-search" type="text" placeholder="Search for a movie" />
+        <button id="search-bar-btn" type="submit">Search</button>
     </form>
 
     <section class="movie-results">
@@ -28,6 +29,6 @@
 
 </body>
 
-<script href="index.js" type="module"></script>
+<script src="index.js" type="module"></script>
 
 </html>

@@ -18,12 +18,14 @@ header {
 }
 
 .search-bar {
+    border-radius: 50em;
     display: flex;
     position: absolute;
     top: 22.5%;
     left: 50%;
     margin-left: -40vw;
     width: 80vw;
+    height: 2.25em;
 }
 
 .search-bar input,
@@ -34,16 +36,31 @@ header {
 
 .search-bar input {
     background-image: url('assets/search-icon.png');
-    background-position: top;
+    background-position: 3% 50%;
     background-repeat: no-repeat;
-    height: 2em;
-    padding: 0.2em 0.2em 0.2em 1.5em;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    padding: 0.2em 0.2em 0.2em 2.5em;
     margin: 0;
     width: 80%;
+    color: #6B7280;
 }
 
 .search-bar button {
-    height: 2.7em;
+    border-left: none;
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
     padding: 0.2em 2em;
     margin: 0;
+    color: #374151;
+}
+
+.movie-results {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    font-weight: 700;
+    color: #DFDDDD;
 }
