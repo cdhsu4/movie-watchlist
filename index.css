@@ -60,7 +60,61 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 3.5em;
+    box-sizing: border-box; 
+    width: 100%;
+}
+
+.movie-results-empty {
     height: 75vh;
     font-weight: 700;
     color: #DFDDDD;
+}
+
+.movie {
+    display: flex;
+    padding: 1em 2em;
+    gap: 1.5em;
+    border-bottom: 2px solid #E5E7EB;
+    box-sizing: border-box; 
+}
+
+.movie p {
+    margin: 0;
+}
+
+.movie img {
+    height: 100%;
+}
+
+.movie-header > p {
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+.fa-star,
+.movie-small-text {
+    font-size: 0.8rem;
+    align-self: center;
+}
+
+.fa-star {
+    color: #FEC654;
+    margin-left: 1em;
+    margin-right: 0.25em;
+}
+
+.movie-details {
+    display: flex;
+    margin-bottom: 1em;
+}
+
+.movie-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.add-movie-btn {
+    border: none;
+    background-color: white;
 }
